@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Meu Perfil</title>
 </head>
 <body>
 
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html" >Home</a>
         </li>
@@ -17,20 +18,58 @@
         <li><a href="contato.html">Contato</a></li>
     </ul>
 
-    <h1>Sobre a Rafaela</h1>
+    <h1 class="center">Sobre a Rafaela</h1>
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur laudantium eius natus delectus voluptatem architecto id molestias accusamus est cupiditate quia recusandae voluptate, sed modi maxime animi! Assumenda, ad harum.
-    </p>
+  <!--  <style>
+        p{
+            font-size: 30px;
+        }
+    </style>
+    <style>
+        .center{
+            text-align: center;
+        }
+    </style>-->
 
-    <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente optio aut, suscipit fuga quos ducimus odio in beatae, corrupti similique maxime? Sint, blanditiis est. Sed enim totam nemo qui veritatis!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo recusandae corporis aut unde expedita incidunt id. Maiores laborum sunt repellendus a accusantium, iusto excepturi ratione temporibus ducimus, cum quia veritatis.
-    </p>
+    <div class="container">
 
-    <img src="assets/img/octocat.png" alt="Foto do octocat">
+        <div>
+            <img class="br-50 wh-300 p-30" src="assets/img/toyStory.jpg" alt="Cena do filme Toy Story " >   
+        </div>
 
-    <h2>Meu video predileto</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/0MxulhivCvI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <div class="p-30">
+            <p class="justify"><!--style="font-size: 30px;"-->
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur laudantium eius natus delectus voluptatem 
+                architecto id molestias accusamus est cupiditate quia recusandae voluptate, sed modi maxime animi! Assumenda, ad harum.
+            </p>
+        
+            <p class="justify">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente optio aut, suscipit fuga quos ducimus odio in beatae, corrupti similique maxime? Sint, blanditiis est. Sed enim totam nemo qui veritatis!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo recusandae corporis aut unde expedita incidunt id. Maiores laborum sunt repellendus a accusantium, iusto excepturi ratione temporibus ducimus, cum quia veritatis.
+            </p>
+        </div>
+
+    </div>
+    
+    <h2 class="center">Meu video predileto</h2>
+
+    <div class="container mb-50">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0MxulhivCvI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+   <hr>
+    <footer>
+        <div class="container">
+            <a href="https://br.linkedin.com/" target="_blank"><img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do linkedin"></a>
+            <a href="https://www.instagram.com/?hl=pt-br" target="_blank"><img class="tm-social p-30" src="assets/img//instagram.png" alt="Logo do  Instagram"></a>
+            <a href="https://pt-br.facebook.com/" target="_blank"> <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do facebook"></a>
+            
+                      
+        </div>
+        <p class="center">
+              Todos os direitos reservados: Rafaela Albuquerque &copy
+        </p>
+      
+    </footer>
 </body>
 </html>
